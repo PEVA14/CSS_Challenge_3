@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------ */
+/* WRITE YOUR CSS HERE :) */
+h1, h2, h3{
+    font-family: Orbitron, sans-serif;
+}
+
+p{
+    font-family: Roboto, sans-serif;
+}
+
+section p{
+    margin-top: 2rem;
+}
+body{
+    text-align: justify;
+}
+
+header{
+    height: 10rem;
+    place-content: center;
+    text-align: center;
+    line-height: 3rem;
+    color: white;
+    background-color: rgb(0, 0, 47);
+}
+
+header p{
+    color:rgb(159, 159, 221);
+}
+
+
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+nav{
+    margin-top: 2rem;
+    height: 4rem;
+    place-content: center;
+    background-color: rgb(63, 52, 52);
+    text-align: center;
+    text-indent: 1.5rem;
+    font-family: Roboto;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(159, 159, 221);
+    padding-right: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    place-content: center;
+    border-radius: 0.6rem;
+}
+
+li{
+    display: inline-block;
+    height: max-content;
+    color: white;
+}
+
+a:hover{
+    background-color: rgb(96, 117, 252);
+    place-content: center;
+    text-align: center;
+    height: max-content;
+    color:white;
+    text-decoration: underline;
+}
+
+a:active{
+    background-color: rgb(39, 67, 255);
+    place-content: center;
+    text-align: center;
+    height: max-content;
+    color:white;
+    text-decoration: underline;
+}
+
+h2{
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.2rem solid rgb(0, 53, 213);
+    border-color: blue;
+}
+
+.highlight{
+    background-color: rgb(187, 242, 248);
+    padding-left: 0.5rem;
+    font-style: italic;
+    border-left: 0.15rem solid rgb(0, 4, 255);
+}
+
+.tool-card{
+    margin-top: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 12px;
+    border: 1px solid rgba(0,0,0,0.06);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+}
+
+.tool-card h3{
+    color:rgb(0, 176, 12)
+}
+
+table{
+    margin-top: 3rem;
+    width: 700px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: Roboto;
+}
+
+th{
+    background-color: rgb(45, 171, 255);
+}
+
+tr{
+    height: 3rem;
+    text-align: left;
+    width: 8rem;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(221, 221, 221);
+}
+
+tr:hover{
+    background-color: rgb(197, 232, 255);
+}
+
+footer{
+    margin-top: 4rem;
+}
+/* ------------------------------------ */
